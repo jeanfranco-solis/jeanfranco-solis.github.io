@@ -219,3 +219,10 @@ project_content {
   line-height: 1.6;
   color: var(--text-color);
 }
+
+@media (max-width: 768px) {
+  .hero_img {
+    width: 120px;
+    height: 120px;
+  }
+}
