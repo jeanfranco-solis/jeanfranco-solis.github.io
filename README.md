@@ -3,7 +3,7 @@
 
 - 🔭 Proyects **Portofolio**
 
-- 🌱 I’m currently learning **course analytics**
+- 🌱 I’m currently learning **google clud and learning path**
 
 - 📫 How to reach me **jeanfrancosolis27@gmail.com**
 
@@ -19,5 +19,3 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=jeanfranco-solis&show_icons=true&locale=en&layout=compact" alt="jeanfranco-solis" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=jeanfranco-solis&show_icons=true&locale=en" alt="jeanfranco-solis" /></p>
-
--->
