@@ -22,7 +22,7 @@
   <!-- HERO -->
 <section id="hero" class="hero">
   <img src="assets/franco.jpg" alt="Foto de JeanFranco Solis" class="hero_img">
-  <h1 class="hero_title">¡Hola! Soy JeanFranco</h1>
+  <h1 class="hero_title"></h1>
   <p class="hero_subtitle">Analista de Datos | Python | Power BI | SQL | Excel</p>
    <!-- Botón CV secundario -->
      <div class="hero_buttons">
@@ -31,6 +31,36 @@
    </div>
 </section>
 
+  <style>
+  #typed {
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.15em solid orange; /* Cursor parpadeante */
+    animation: blink-caret 0.7s step-end infinite;
+  }
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: orange; }
+  }
+</style>
+
+  <script>
+  const text = "¡Hola! Soy JeanFranco";
+  const typedElement = document.getElementById("typed");
+  let index = 0;
+
+  function typeWriter() {
+    if (index < text.length) {
+      typedElement.innerHTML += text.charAt(index);
+      index++;
+      setTimeout(typeWriter, 150); // Ajusta la velocidad si quieres más rápido o más lento
+    }
+  }
+
+  window.onload = typeWriter;
+</script>
 
 <!-- SOBRE MÍ -->
 <section id="about" class="about">
