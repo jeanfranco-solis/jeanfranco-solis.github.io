@@ -109,7 +109,8 @@ project_content {
   font-size: 1.1rem;       /* texto más grande */
   margin-bottom: 1rem;
   color: #333;
-  line-height: 1.6;        /* más espacio entre líneas */
+  line-height: 1.6;
+  text-align: center;/* más espacio entre líneas */
 }
 
 .btn_project {
