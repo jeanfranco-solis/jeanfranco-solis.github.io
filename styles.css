@@ -72,6 +72,9 @@ body.dark {
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .project_card:hover {
@@ -90,11 +93,13 @@ body.dark {
 
 project_content {
   padding: 1rem;
+  flex: 1;
   display: flex;
   justify-content: center;
   flex-direction: column;  /* organiza título, descripción y botón verticalmente */
   align-items: center;     /* centra horizontalmente */
-  text-align: center;      /* centra el texto */
+  text-align: center;/* centra el texto */
+  justify-content: space-between;
 }
 
 .project_title {
