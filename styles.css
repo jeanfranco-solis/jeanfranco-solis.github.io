@@ -121,6 +121,8 @@ project_content {
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
+  margin: 0 auto;       /* ✅ Centra el botón horizontalmente */
+  text-align: center;
 }
 
 .btn_project:hover {
