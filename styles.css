@@ -67,7 +67,7 @@ body.dark {
 .project_card {
   flex: 1 1 220px;
   max-width: 300px;
-  background-color: #aaa9a9;
+  background-color: #dae4e9;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -114,7 +114,7 @@ project_content {
 }
 
 .btn_project {
-  display: inline-block;
+  display: block;
   background-color: #12a568;
   color: white;
   padding: 0.6rem 1.2rem;
