@@ -91,6 +91,7 @@ body.dark {
 project_content {
   padding: 1rem;
   display: flex;
+  justify-content: center;
   flex-direction: column;  /* organiza título, descripción y botón verticalmente */
   align-items: center;     /* centra horizontalmente */
   text-align: center;      /* centra el texto */
