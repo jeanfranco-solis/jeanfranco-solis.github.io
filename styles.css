@@ -96,6 +96,15 @@ project_content {
   text-align: center;      /* centra el texto */
 }
 
+.project_title {
+  font-size: 1.3rem;      /* Tamaño del texto */
+  font-weight: bold;      /* Negrita */
+  color: #000;            /* Negro puro */
+  margin-bottom: 0.5rem;  /* Espacio debajo */
+  text-align: center;     /* Centrado */
+}
+
+
 .project_description {
   font-size: 1.1rem;       /* texto más grande */
   margin-bottom: 1rem;
